@@ -6,20 +6,16 @@ print "var god skriv in ett nummer som du vill kolla om det är delbart med 3, 5
 
 
 def fizz_buzz(number)
-
   if  number < 1
     'wrong input'
-elsif number % 15 == 0
+  elsif number % 15 == 0
     'fizzbuzz'
-elsif number % 5 == 0
+  elsif number % 5 == 0
     'buzz'
-elsif  number % 3 == 0
+  elsif  number % 3 == 0
     'fizz'
-
- else
-number
-
-
+  else
+    number
 end
 end
 
