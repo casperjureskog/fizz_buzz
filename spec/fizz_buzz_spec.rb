@@ -4,11 +4,8 @@ describe 'fizz_buzz' do
 
 
 
-  #it 'returns 0 if number is 0' do
-  #  expect(fizz_buzz(0)).to eq 0
-  #end
 
-  it 'returns less than number 1' do
+  it 'The test is about making sure valid numbers don t return "wrong input"' do
       expect(fizz_buzz(1)).not_to eq 'wrong input'
   end
 
